@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Ironbark Construction</title>
+  <meta name="description" content="View our portfolio of residential, commercial, and renovation projects.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        <span class="nav__logo-icon">I</span>
+        Ironbark
+      </a>
+      <div class="nav__links">
+        <a href="index.html" class="nav__link">Home</a>
+        <a href="about.html" class="nav__link">About</a>
+        <a href="services.html" class="nav__link">Services</a>
+        <a href="projects.html" class="nav__link active">Projects</a>
+        <a href="process.html" class="nav__link">Process</a>
+        <a href="contact.html" class="nav__link">Contact</a>
+      </div>
+      <button class="hamburger" aria-label="Toggle menu">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+    </div>
+    <div class="nav__overlay"></div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero hero--small">
+    <div class="hero__bg">
+      <div class="hero__bg-pattern"></div>
+      <div class="hero__diagonal"></div>
+    </div>
+    <div class="container hero__content">
+      <div class="reveal">
+        <span class="hero__label">Our Work</span>
+        <h1>Projects That <span>Speak Volume</span></h1>
+        <p class="hero__text">Browse our portfolio of completed residential, commercial, and renovation projects across the region.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Grid -->
+  <section class="section">
+    <div class="container">
+      <div class="filter-bar reveal">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="residential">Residential</button>
+        <button class="filter-btn" data-filter="commercial">Commercial</button>
+        <button class="filter-btn" data-filter="renovation">Renovation</button>
+      </div>
+
+      <div class="projects-grid stagger-children">
+        <div class="project-item" data-category="residential">
+          <div class="project-item__image project-item__image--1">
+            <span class="project-item__image-text">Project Photo</span>
+          </div>
+          <div class="project-item__info">
+            <span class="project-card__category">Residential</span>
+            <h3>Harbour View Residence</h3>
+            <p>4-bedroom custom home · Wellington</p>
+          </div>
+        </div>
+
+        <div class="project-item" data-category="commercial">
+          <div class="project-item__image project-item__image--2">
+            <span class="project-item__image-text">Project Photo</span>
+          </div>
+          <div class="project-item__info">
+            <span class="project-card__category">Commercial</span>
+            <h3>Central Office Complex</h3>
+            <p>3-storey commercial fit-out · CBD</p>
+          </div>
+        </div>
+
+        <div class="project-item" data-category="renovation">
+          <div class="project-item__image project-item__image--3">
+            <span class="project-item__image-text">Project Photo</span>
+          </div>
+          <div class="project-item__info">
+            <span class="project-card__category">Renovation</span>
+            <h3>Heritage Villa Restoration</h3>
+            <p>Full renovation · Mt Victoria</p>
+          </div>
+        </div>
+
+        <div class="project-item" data-category="residential">
+          <div class="project-item__image project-item__image--4">
+            <span class="project-item__image-text">Project Photo</span>
+          </div>
+          <div class="project-item__info">
+            <span class="project-card__category">Residential</span>
+            <h3>Coastal Family Home</h3>
+            <p>5-bedroom new build · Kapiti Coast</p>
+          </div>
+        </div>
+
+        <div class="project-item" data-category="commercial">
+          <div class="project-item__image project-item__image--5">
+            <span class="project-item__image-text">Project Photo</span>
+          </div>
+          <div class="project-item__info">
+            <span class="project-card__category">Commercial</span>
+            <h3>Retail Precinct Fit-Out</h3>
+            <p>Multi-tenancy retail · Petone</p>
+          </div>
+        </div>
+
+        <div class="project-item" data-category="renovation">
+          <div class="project-item__image project-item__image--6">
+            <span class="project-item__image-text">Project Photo</span>
+          </div>
+          <div class="project-item__info">
+            <span class="project-card__category">Renovation</span>
+            <h3>Art Deco Apartment Refurb</h3>
+            <p>Interior renovation · Napier</p>
+          </div>
+        </div>
+
+        <div class="project-item" data-category="residential">
+          <div class="project-item__image project-item__image--2">
+            <span class="project-item__image-text">Project Photo</span>
+          </div>
+          <div class="project-item__info">
+            <span class="project-card__category">Residential</span>
+            <h3>Hillside Eco Home</h3>
+            <p>Passive house build · Brooklyn</p>
+          </div>
+        </div>
+
+        <div class="project-item" data-category="commercial">
+          <div class="project-item__image project-item__image--4">
+            <span class="project-item__image-text">Project Photo</span>
+          </div>
+          <div class="project-item__info">
+            <span class="project-card__category">Commercial</span>
+            <h3>Restaurant & Bar Conversion</h3>
+            <p>Hospitality fit-out · Courtenay Place</p>
+          </div>
+        </div>
+
+        <div class="project-item" data-category="renovation">
+          <div class="project-item__image project-item__image--1">
+            <span class="project-item__image-text">Project Photo</span>
+          </div>
+          <div class="project-item__info">
+            <span class="project-card__category">Renovation</span>
+            <h3>Victorian Townhouse Upgrade</h3>
+            <p>Earthquake strengthening + reno · Thorndon</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container reveal">
+      <h2>Your Project Could Be Next</h2>
+      <p>Let's discuss your build and add it to our growing portfolio of quality construction.</p>
+      <a href="contact.html" class="btn btn--outline-light btn--large">Start Your Project</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <h3>Ironbark</h3>
+          <p>Building with strength and integrity since 2003. Quality construction you can trust for generations.</p>
+        </div>
+        <div class="footer__links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="process.html">Process</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__contact">
+          <h4>Contact Us</h4>
+          <p>📍 42 Builder Street, Wellington</p>
+          <p>📞 (04) 555-0123</p>
+          <p>✉️ info@ironbarkconstruction.co.nz</p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2025 Ironbark Construction. All rights reserved. Designed by <a href="https://wingfieldgemini.github.io" target="_blank" rel="noopener">WingfieldGemini</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

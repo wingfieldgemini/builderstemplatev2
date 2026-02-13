@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Ironbark Construction</title>
+  <meta name="description" content="Get in touch with Ironbark Construction for a free consultation and quote on your building project.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        <span class="nav__logo-icon">I</span>
+        Ironbark
+      </a>
+      <div class="nav__links">
+        <a href="index.html" class="nav__link">Home</a>
+        <a href="about.html" class="nav__link">About</a>
+        <a href="services.html" class="nav__link">Services</a>
+        <a href="projects.html" class="nav__link">Projects</a>
+        <a href="process.html" class="nav__link">Process</a>
+        <a href="contact.html" class="nav__link active">Contact</a>
+      </div>
+      <button class="hamburger" aria-label="Toggle menu">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+    </div>
+    <div class="nav__overlay"></div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero hero--small">
+    <div class="hero__bg">
+      <div class="hero__bg-pattern"></div>
+      <div class="hero__diagonal"></div>
+    </div>
+    <div class="container hero__content">
+      <div class="reveal">
+        <span class="hero__label">Get In Touch</span>
+        <h1>Let's Build <span>Together</span></h1>
+        <p class="hero__text">Ready to start your project? Fill out the form below or give us a call. Free consultations available.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form & Info -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Form -->
+        <div class="contact-form reveal--left">
+          <h3>Tell Us About Your Project</h3>
+          <form id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" required placeholder="John Smith">
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required placeholder="john@example.com">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="(04) 555-0000">
+              </div>
+              <div class="form-group">
+                <label for="project-type">Project Type *</label>
+                <select id="project-type" name="project-type" required>
+                  <option value="">Select project type</option>
+                  <option value="new-build">New Build</option>
+                  <option value="renovation">Renovation</option>
+                  <option value="extension">Extension</option>
+                  <option value="commercial">Commercial Fit-Out</option>
+                  <option value="project-management">Project Management</option>
+                  <option value="earthquake">Earthquake Strengthening</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="budget">Budget Range</label>
+                <select id="budget" name="budget">
+                  <option value="">Select budget range</option>
+                  <option value="under-100k">Under $100,000</option>
+                  <option value="100-250k">$100,000 – $250,000</option>
+                  <option value="250-500k">$250,000 – $500,000</option>
+                  <option value="500k-1m">$500,000 – $1,000,000</option>
+                  <option value="over-1m">Over $1,000,000</option>
+                  <option value="unsure">Not sure yet</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="timeline">Preferred Timeline</label>
+                <select id="timeline" name="timeline">
+                  <option value="">Select timeline</option>
+                  <option value="asap">As soon as possible</option>
+                  <option value="1-3months">1–3 months</option>
+                  <option value="3-6months">3–6 months</option>
+                  <option value="6-12months">6–12 months</option>
+                  <option value="planning">Just planning ahead</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="details">Project Details *</label>
+              <textarea id="details" name="details" required placeholder="Tell us about your project — location, scope, any specific requirements or ideas..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn--primary btn--large" style="width:100%; justify-content:center;">Send Enquiry</button>
+          </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="contact-info reveal--right">
+          <div class="contact-info-card">
+            <span class="contact-info-card__icon">📍</span>
+            <h4>Office Location</h4>
+            <p>42 Builder Street<br>Wellington 6011<br>New Zealand</p>
+          </div>
+
+          <div class="contact-info-card">
+            <span class="contact-info-card__icon">📞</span>
+            <h4>Phone</h4>
+            <p><a href="tel:+6445550123">(04) 555-0123</a></p>
+            <p>Mon–Fri: 7:30am – 5:00pm</p>
+          </div>
+
+          <div class="contact-info-card">
+            <span class="contact-info-card__icon">✉️</span>
+            <h4>Email</h4>
+            <p><a href="mailto:info@ironbarkconstruction.co.nz">info@ironbarkconstruction.co.nz</a></p>
+            <p>We respond within 24 hours</p>
+          </div>
+
+          <div class="site-visit">
+            <h3>📋 Book a Site Visit</h3>
+            <p>Want us to come to you? We offer free on-site consultations to assess your project firsthand.</p>
+            <a href="tel:+6445550123" class="btn btn--outline-light">Call to Book</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Map placeholder -->
+      <div class="map-placeholder reveal">
+        Map Placeholder — Embed Google Maps Here
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <h3>Ironbark</h3>
+          <p>Building with strength and integrity since 2003. Quality construction you can trust for generations.</p>
+        </div>
+        <div class="footer__links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="process.html">Process</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__contact">
+          <h4>Contact Us</h4>
+          <p>📍 42 Builder Street, Wellington</p>
+          <p>📞 (04) 555-0123</p>
+          <p>✉️ info@ironbarkconstruction.co.nz</p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2025 Ironbark Construction. All rights reserved. Designed by <a href="https://wingfieldgemini.github.io" target="_blank" rel="noopener">WingfieldGemini</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
